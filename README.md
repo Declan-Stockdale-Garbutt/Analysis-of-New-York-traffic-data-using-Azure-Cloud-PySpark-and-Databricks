@@ -41,7 +41,7 @@ LIMIT  1
 ![image](https://user-images.githubusercontent.com/53500810/206883309-23a2296b-8560-4327-b2ef-054bc8638889.png)
 
 
-2. Display the number of trips for each hour (12am - 1am is hour 0,  1am - 2am is hour 1 etc.)
+### 2. Display the number of trips for each hour (12am - 1am is hour 0,  1am - 2am is hour 1 etc.)
 
 ```
 SELECT 24_hour,
@@ -53,7 +53,7 @@ ORDER  BY 24_hour ASC
 
 ![image](https://user-images.githubusercontent.com/53500810/206883336-6371630e-0931-46ad-ba39-f6346ad34f0c.png)
 
-3. What was the average, median, minimum and maximum trip duration in seconds?
+### 3. What was the average, median, minimum and maximum trip duration in seconds?
 
 ```
 SELECT taxi_type,
