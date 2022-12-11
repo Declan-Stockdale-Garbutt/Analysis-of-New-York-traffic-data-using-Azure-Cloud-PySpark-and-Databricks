@@ -21,7 +21,6 @@ The column order of the green dataset was rearranged to match the yellow dataset
 ### 1. Which day of the week had the most number of trips 
 
 ```
-'''
 SELECT day_of_week,
        CASE day_of_week
          WHEN 1 THEN 'Sunday'
@@ -37,7 +36,7 @@ FROM   taxi_df
 GROUP  BY day_of_week
 ORDER  BY trips_per_day DESC
 LIMIT  1 
-'''
+```
 
 ![image](https://user-images.githubusercontent.com/53500810/206883309-23a2296b-8560-4327-b2ef-054bc8638889.png)
 
